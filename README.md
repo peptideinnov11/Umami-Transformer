@@ -19,9 +19,22 @@ We have tested Umami-Transformer with **Ubuntu 20.04** (ROS Noetic). It is recom
 
 ## 3.1 Set up you environment ##
 
-**Note**: Please ensure your system has an NVIDIA GPU with compatible CUDA drivers installed (tested on RTX 4090, CUDA 12.6).
+**Note**: Please ensure your system has an NVIDIA GPU and compatible CUDA drivers installed (tested on RTX 4090 with CUDA 12.6), and verify that Anaconda is installed.
+
 1. Create a conda enveriment:
 ```
-	conda create -n unima_test python==3.9
-	conda activate unami_test
+conda create -n umima_test python==3.9
+conda activate umami_test
+```
+2. Install Python Packages
+```
+pip install pandas
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+pip install scikit-learn
+pip install tqdm
+```
+3. Clone the source repo into your workspace folder
+```
+cd ~/your_workspace
+git clone https://github.com/VIS4ROB-lab/ccm_slam.git
 ```
