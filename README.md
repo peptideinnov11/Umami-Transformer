@@ -13,3 +13,10 @@ If you use Umami-Transformer in an academic work, please cite:
 
 	放一个bibTax的引用链接
 
+# 3. Installation
+﻿
+We have tested Umami-Transformer with **Ubuntu 20.04** (ROS Noetic). It is recommended to use a decently powerful computer for the Server Node to ensure good performance for quickly used.
+
+## 3.1 Set up you environment ##
+
+**Note**: Please ensure your system has an NVIDIA GPU with compatible CUDA drivers installed (tested on RTX 4090, CUDA 12.6).
