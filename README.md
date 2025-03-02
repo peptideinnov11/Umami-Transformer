@@ -20,3 +20,8 @@ We have tested Umami-Transformer with **Ubuntu 20.04** (ROS Noetic). It is recom
 ## 3.1 Set up you environment ##
 
 **Note**: Please ensure your system has an NVIDIA GPU with compatible CUDA drivers installed (tested on RTX 4090, CUDA 12.6).
+1. Create a conda enveriment:
+```
+	conda create -n unima_test python==3.9
+	conda activate unami_test
+```
