@@ -17,7 +17,7 @@ If you use Umami-Transformer in an academic work, please cite:
 ﻿
 We have tested Umami-Transformer with **Ubuntu 20.04** (ROS Noetic). It is recommended to use a decently powerful computer for the Server Node to ensure good performance for quickly used.
 
-## 3.1 Set up you environment ##
+## 3.1 Run locally ##
 
 **Note**: Please ensure your system has an NVIDIA GPU and compatible CUDA drivers installed (tested on RTX 4090 with CUDA 12.6), and verify that Anaconda is installed.
 
@@ -39,10 +39,19 @@ cd ~/your_workspace
 git clone https://github.com/peptideinnov11/Umami-Transformer.git
 ```
 4. Preprocess Test Data for Format Consistency
-Ensure your data format strictly adheres to the schema defined in 2_peptide.cs
+Ensure your data format strictly adheres to the schema defined in 2_peptide.csv
 ```
 cd Umami-Transformer
 python make_feature.py
 ```
+5. Retrieve Prediction Results
+If you retained the default output filename from the previous step, proceed directly. Otherwise, modify the corresponding path variables in the Python script.
+```
+python make_feature.py
+```
+The inference results can be found in result/result.csv.
 
-
+## 3.2 Run via the web interface ##
+```
+http://www.peptideinnov.com/
+```
