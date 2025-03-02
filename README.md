@@ -36,5 +36,13 @@ pip install tqdm
 3. Clone the source repo into your workspace folder
 ```
 cd ~/your_workspace
-git clone https://github.com/VIS4ROB-lab/ccm_slam.git
+git clone https://github.com/peptideinnov11/Umami-Transformer.git
 ```
+4. Preprocess Test Data for Format Consistency
+Ensure your data format strictly adheres to the schema defined in 2_peptide.cs
+```
+cd Umami-Transformer
+python make_feature.py
+```
+
+
