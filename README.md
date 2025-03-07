@@ -2,7 +2,7 @@
 
 # 1 Related Publications
 
-[1] 作者名写两到三个 **论文名**.  *发表地* 时间. **[PDF](放PDF的链接)**.
+[1] Fu B., Fan M., Yi J., Du Y., Tian H., Yang T., Cheng S., and Du M. **Umami-Transformer: A Deep Learning Framework for High-Precision Prediction, Molecular Validation, and Sensory Optimization of Umami Peptidesenen**.  *发表地* 时间. **[PDF](放PDF的链接)**.
 
 
 # 2. License
