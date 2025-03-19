@@ -52,6 +52,7 @@ python make_feature.py
 The inference results can be found in result/result.csv.
 
 ## 3.2 Run via the web interface ##
+**Note：Due to the special significance of NA and NAN in computer programs, when there are sequences containing NA or NAN, please separate them and manually input these two sequences in the input box**
 ```
 http://www.peptideinnov.com/
 ```
