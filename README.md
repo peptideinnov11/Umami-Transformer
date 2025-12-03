@@ -2,7 +2,9 @@
 
 # 1 Related Publications
 
-[1] Fu B., Fan M., Yi J., Du Y., Tian H., Yang T., Cheng S., and Du M. **Umami-Transformer: A Deep Learning Framework for High-Precision Prediction, Molecular Validation, and Sensory Optimization of Umami Peptidesenen**.  *发表地* 时间. **[PDF](放PDF的链接)**.
+This project is based on or inspired by the following research paper:
+
+**Fu, B., Fan, M., Yi, J., Du, Y., Tian, H., Yang, T., Cheng, S., & Du, M.** (2025). **Umami-Transformer: A Deep Learning Framework for High-Precision Prediction, Molecular Validation, and Sensory Optimization of Umami Peptides.** *Food Chemistry*. https://doi.org/10.1016/j.foodchem.2025.145905
 
 
 # 2. License
