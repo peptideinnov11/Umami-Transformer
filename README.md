@@ -11,25 +11,21 @@ This project is based on or inspired by the following research paper:
 
 Umami-Transformer is released under a [GPLv3 license] ([https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)).
 
-If you use Umami-Transformer in an academic work, please cite:
+If you use this work in your research, please cite the original paper using the following BibTeX:
 
-@article{FU2025145905,
-title = {Umami-Transformer: A deep learning framework for high-precision prediction and experimental validation of umami peptides},
-journal = {Food Chemistry},
-volume = {493},
-pages = {145905},
-year = {2025},
-issn = {0308-8146},
-doi = {https://doi.org/10.1016/j.foodchem.2025.145905},
-url = {https://www.sciencedirect.com/science/article/pii/S0308814625031565},
-author = {Baifeng Fu and Min Fan and Junjie Yi and Yingxue Du and Hong Tian and Tao Yang and Shuzhen Cheng and Ming Du},
-keywords = {Machine learning, Molecular docking, Umami peptides, Deep learning, transformer},
-abstract = {In food field, both identification of umami peptides and their sensory evaluation are limited by low efficiency of traditional methods and subjectivity of human-based assessments. To overcome these issues, Umami-Transformer was developed by integrating Transformer architecture with eight physicochemical descriptors. A classification accuracy of 0.965, an F1 score of 0.903 and a Matthews correlation coefficient of 0.889 were obtained. All dipeptides to pentapeptides were examined, four peptides with top prediction scores and strong docking affinities (DD, DDE, DDED, and DDEDD) were synthesized. Sensory and electronic tongue analyses confirmed umami and saltiness of DDE (1 mg/mL) and DDED (1 mg/mL), which surpassed 3 mg/mL monosodium glutamate. Molecular docking studies revealed the presence of Asp/Glu residues at either the N-terminus or C-terminus of umami peptides enhances their interaction with the umami receptor, thereby eliciting umami taste perception. Theoretical modeling is bridged with practical applications of taste optimization, resulting in significant cost savings.}
+```bibtex
+@article{fu2025umami,
+  title={Umami-transformer: A deep learning framework for high-precision prediction and experimental validation of umami peptides},
+  author={Fu, Baifeng and Fan, Min and Yi, Junjie and Du, Yingxue and Tian, Hong and Yang, Tao and Cheng, Shuzhen and Du, Ming},
+  journal={Food Chemistry},
+  pages={145905},
+  year={2025},
+  publisher={Elsevier}
 }
 
 # 3. Installation
 ﻿
-We have tested Umami-Transformer with **Ubuntu 20.04** (ROS Noetic). It is recommended to use a decently powerful computer for the Server Node to ensure good performance for quickly used.
+We have tested Umami-Transformer with **Ubuntu 20.04**. It is recommended to use a decently powerful computer for the Server Node to ensure good performance for quickly used.
 
 ## 3.1 Run locally ##
 
