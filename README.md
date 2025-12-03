@@ -1,15 +1,11 @@
 # Umami-Transformer
 
-# 1 Related Publications
-
-This project is based on or inspired by the following research paper:
-
+## 1. Related Publications
+This project is based on or inspired by the following research paper:  
 **Fu, B., Fan, M., Yi, J., Du, Y., Tian, H., Yang, T., Cheng, S., & Du, M.** (2025). **Umami-Transformer: A Deep Learning Framework for High-Precision Prediction, Molecular Validation, and Sensory Optimization of Umami Peptides.** *Food Chemistry*. https://doi.org/10.1016/j.foodchem.2025.145905
 
-
-# 2. License
-
-Umami-Transformer is released under a [GPLv3 license] ([https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)).
+## 2. License
+Umami-Transformer is released under a [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 If you use this work in your research, please cite the original paper using the following BibTeX:
 
@@ -22,9 +18,10 @@ If you use this work in your research, please cite the original paper using the 
   year={2025},
   publisher={Elsevier}
 }
+```
 
-# 3. Installation
-﻿
+## 3. Installation
+
 We have tested Umami-Transformer with **Ubuntu 20.04**. It is recommended to use a decently powerful computer for the Server Node to ensure good performance for quickly used.
 
 ## 3.1 Run locally ##
